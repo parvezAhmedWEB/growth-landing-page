@@ -1,0 +1,51 @@
+/* 
+    !desktop
+*/
+@media (max-width: 1200px) {
+  .container {
+    max-width: 95%;
+  }
+}
+/* 
+    !laptop
+*/
+@media (max-width: 1024px) {
+}
+/* 
+    !tablet
+*/
+@media (max-width: 768px) {
+  /* 
+    !styles rules for section-header
+  */
+  .header-contents-left {
+    z-index: 100;
+  }
+  .header-contents-menu {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--cls-light-2);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 0 1rem 1.6rem;
+    transition: 0.5s;
+    opacity: 1;
+  }
+  .visibility {
+    z-index: -1;
+    opacity: 0;
+  }
+  .hamburger-menu {
+    display: block;
+    z-index: 100;
+  }
+}
+/* 
+    !mobile
+*/
+@media (max-width: 568px) {
+}

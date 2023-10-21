@@ -1,0 +1,37 @@
+/* 
+    !styles rules for section-header
+*/
+.section-header {
+  position: relative;
+}
+.header-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.4rem 0;
+}
+.header-contents__logo {
+  width: 10.4rem;
+}
+.header-contents-menu {
+  font-size: var(--fs-9);
+  color: red;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+.header-contents-menu li a {
+  color: var(--cls-primary);
+  font-weight: 500;
+  transition: 0.5s;
+}
+.header-contents-menu li a:hover {
+  color: var(--bg-primary);
+}
+.hamburger-menu {
+  display: none;
+  font-size: var(--fs-8);
+}
+.hamburger-menu span {
+  cursor: pointer;
+}
