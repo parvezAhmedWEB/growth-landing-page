@@ -68,37 +68,22 @@
   color: var(--cls-primary);
   margin-left: 1.6rem;
 }
-/* .section-hero {
-  height: 100vh;
+/* 
+    !styles rules for section-video
+*/
+.section-video {
+  background-color: var(--cls-primary);
+  color: var(--cls-white);
+  margin-top: 7rem;
+  text-align: center;
+  padding: 9.6rem 0;
 }
-.hero-contents {
-  height: inherit;
-  background-image: url("../images/hero-bg.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center bottom;
-  color: var(--cls-primary);
+.video-header__title {
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  font-size: var(--fs-3);
 }
-.hero-contents__heading {
-  width: 80%;
-  font-size: var(--fs-1);
-  margin-top: 3rem;
+.video-content__btn {
+  margin-top: 6rem;
 }
-.hero-contents__text {
-  margin-top: 2.4rem;
-  font-size: var(--fs-7);
-  width: 55%;
-}
-[class^="hero-contents__btn-"] {
-  margin-top: 4rem;
-  transition: 0.5s;
-}
-[class^="hero-contents__btn-"]:hover {
-  opacity: 0.8;
-}
-.hero-contents__btn-2 {
-  padding: 1.6rem 3.2rem;
-  background-color: var(--bg-light-2);
-  color: var(--cls-primary);
-  margin-left: 1.6rem;
-} */

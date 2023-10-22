@@ -17,6 +17,9 @@
   .hero-contents__text {
     font-size: var(--fs-8);
   }
+  /* 
+    !styles rules for section-video
+  */
 }
 /* 
     !laptop
@@ -30,6 +33,13 @@
   }
   .hero-contents__heading {
     font-size: var(--fs-3);
+  }
+  /* 
+    !styles rules for section-video
+  */
+  .video-header__title {
+    width: 90%;
+    font-size: var(--fs-4);
   }
 }
 /* 
@@ -81,6 +91,13 @@
     width: 90%;
     margin: 0 auto;
   }
+  /* 
+    !styles rules for section-video
+  */
+  .video-header__title {
+    width: 95%;
+    font-size: var(--fs-5);
+  }
 }
 /* 
     !mobile
@@ -100,4 +117,7 @@
     display: block;
     width: 100%;
   }
+  /* 
+    !styles rules for section-video
+  */
 }

@@ -58,6 +58,11 @@ svg {
   margin: 0 auto;
   padding: 0 1rem;
 }
+.container-sm {
+  max-width: 94rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
 .height-i {
   height: inherit;
 }
