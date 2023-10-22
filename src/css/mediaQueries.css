@@ -23,6 +23,9 @@
   /* 
     !styles rules for section-testimonial
   */
+  /* 
+    !styles rules for section-pricing
+  */
 }
 /* 
     !laptop
@@ -53,6 +56,23 @@
   .testimonial-header__title {
     width: 75%;
     font-size: var(--fs-4);
+  }
+  /* 
+    !styles rules for section-pricing
+  */
+  .pricing-contents {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .pricing-header__title {
+    font-size: var(--fs-4);
+    margin-bottom: 1.8rem;
+  }
+  .pricing-box__title {
+    font-size: var(--fs-5);
+    margin-bottom: 1rem;
+  }
+  .pricing__des button {
+    width: 30%;
   }
 }
 /* 
@@ -126,6 +146,28 @@
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 22.8rem;
   }
+  /* 
+    !styles rules for section-pricing
+  */
+  .pricing-contents {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .pricing-header__title {
+    font-size: var(--fs-4);
+    margin-bottom: 1.8rem;
+  }
+  .pricing-header__text {
+    font-size: var(--fs-9);
+    margin-bottom: 3rem;
+  }
+  .pricing-box__title {
+    font-size: var(--fs-5);
+    margin-bottom: 1rem;
+  }
+  .pricing__des button {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 /* 
     !mobile
@@ -154,4 +196,7 @@
   .testimonial-header__title {
     width: 100%;
   }
+  /* 
+    !styles rules for section-pricing
+  */
 }
