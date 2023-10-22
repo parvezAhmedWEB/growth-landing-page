@@ -20,6 +20,9 @@
   /* 
     !styles rules for section-video
   */
+  /* 
+    !styles rules for section-testimonial
+  */
 }
 /* 
     !laptop
@@ -39,6 +42,16 @@
   */
   .video-header__title {
     width: 90%;
+    font-size: var(--fs-4);
+  }
+  /* 
+    !styles rules for section-testimonial
+  */
+  .testimonial-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .testimonial-header__title {
+    width: 75%;
     font-size: var(--fs-4);
   }
 }
@@ -98,6 +111,21 @@
     width: 95%;
     font-size: var(--fs-5);
   }
+  .video-content__btn {
+    display: block;
+    width: 100%;
+  }
+  /* 
+    !styles rules for section-testimonial
+  */
+  .testimonial-header__title {
+    width: 80%;
+    font-size: var(--fs-5);
+  }
+  .testimonial-cards {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 22.8rem;
+  }
 }
 /* 
     !mobile
@@ -120,4 +148,10 @@
   /* 
     !styles rules for section-video
   */
+  /* 
+    !styles rules for section-testimonial
+  */
+  .testimonial-header__title {
+    width: 100%;
+  }
 }

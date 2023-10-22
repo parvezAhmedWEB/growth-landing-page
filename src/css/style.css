@@ -87,3 +87,50 @@
 .video-content__btn {
   margin-top: 6rem;
 }
+/* 
+    !styles rules for section-testimonial
+*/
+.section-testimonial {
+  background-color: var(--cls-primary);
+  color: var(--cls-white);
+}
+.section-testimonial .container {
+  border-top: 1px solid var(--cls-light-1);
+  padding: 9rem 0;
+}
+.testimonial-header__title {
+  width: 70%;
+  font-size: var(--fs-3);
+  font-size: var(--fs-3);
+}
+.testimonial-cards {
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 30.8rem;
+  gap: 2.4rem;
+}
+[class^="testimonial-card-"] {
+  background-color: var(--bg-light-1);
+  color: var(--cls-primary);
+  padding: 4rem;
+  border-radius: 1.6rem;
+}
+.testimonial-card-2 {
+  grid-row: span 4;
+}
+.testimonial-card-3 {
+  grid-row: span 2;
+}
+.testimonial-card__text {
+  font-size: var(--fs-7);
+}
+.testimonial-card__bio {
+  margin-top: 4rem;
+}
+.testimonial-card__bio h5 {
+  font-size: var(--fs-8);
+}
+.testimonial-card__bio small {
+  font-size: var(--fs-9);
+}
