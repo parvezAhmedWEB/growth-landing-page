@@ -223,3 +223,71 @@
   width: 18%;
   margin: 0 auto;
 }
+/* 
+    !styles rules for section-faq
+*/
+.section-faq {
+  padding-bottom: 9rem;
+}
+.section-faq .container-sm {
+  border-top: 1px solid var(--bg-light-1);
+  padding: 0 2rem;
+}
+.faq-header {
+  text-align: center;
+}
+.faq-header__title {
+  font-size: var(--fs-4);
+  margin-top: 7rem;
+}
+.faq-header-menu ul {
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: var(--bg-light-2);
+  align-items: center;
+  gap: 2.4rem;
+  padding: 0.8rem;
+  border-radius: 1.6rem;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+.faq-header-menu ul li {
+  font-size: var(--fs-9);
+  padding: 1.2rem 2.4rem;
+}
+.faq-header-menu ul li:first-child {
+  background-color: var(--bg-primary);
+  border-radius: 1.6rem;
+  color: var(--cls-white);
+}
+.faq-content {
+  width: 80rem;
+  margin: 0 auto;
+}
+.faq-box-qus h4 {
+  margin-top: 2rem;
+  font-size: var(--fs-8);
+  margin-bottom: 1.6rem;
+  width: 90%;
+}
+.faq-box-qus {
+  position: relative;
+}
+.faq-box-qus i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 2rem;
+  font-size: var(--fs-8);
+  cursor: pointer;
+}
+.faq-box-body {
+  border-bottom: 1px solid var(--bg-light-1);
+}
+.faq-box-body p {
+  font-size: var(--fs-9);
+  margin-bottom: 4.8rem;
+  width: 85%;
+}

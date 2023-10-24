@@ -26,6 +26,13 @@
   /* 
     !styles rules for section-pricing
   */
+  /* 
+    !styles rules for section-faq
+  */
+  .faq-content {
+    width: 75rem;
+    margin: 0 auto;
+  }
 }
 /* 
     !laptop
@@ -73,6 +80,17 @@
   }
   .pricing__des button {
     width: 30%;
+  }
+  /* 
+    !styles rules for section-faq
+  */
+  .faq-header__title {
+    font-size: var(--fs-5);
+    margin-top: 7rem;
+  }
+  .faq-content {
+    width: 70rem;
+    margin: 0 auto;
   }
 }
 /* 
@@ -168,6 +186,39 @@
     width: 100%;
     margin: 0 auto;
   }
+  /* 
+    !styles rules for section-faq
+  */
+  .faq-header__title {
+    font-size: var(--fs-6);
+    margin-top: 7rem;
+  }
+  .faq-content {
+    width: 60rem;
+    margin: 0 auto;
+  }
+  .faq-header-menu ul {
+    width: 90%;
+    gap: 2rem;
+  }
+  .faq-header-menu ul li {
+    font-size: var(--fs-9);
+    padding: 1rem 2rem;
+  }
+  .faq-content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .faq-box-qus i {
+    padding-right: 0;
+  }
+  .faq-box-qus h4 {
+    font-size: var(--fs-9);
+  }
+  .faq-box-body p {
+    font-size: var(--fs-10);
+  }
 }
 /* 
     !mobile
@@ -199,4 +250,14 @@
   /* 
     !styles rules for section-pricing
   */
+  /* 
+    !styles rules for section-faq
+  */
+  .faq-header-menu ul {
+    width: 100%;
+  }
+  .faq-header-menu ul {
+    width: 100%;
+    gap: 0rem;
+  }
 }
