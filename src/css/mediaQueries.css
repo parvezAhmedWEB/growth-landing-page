@@ -33,6 +33,9 @@
     width: 75rem;
     margin: 0 auto;
   }
+  /* 
+    !styles rules for section-footer
+*/
 }
 /* 
     !laptop
@@ -91,6 +94,15 @@
   .faq-content {
     width: 70rem;
     margin: 0 auto;
+  }
+  /* 
+    !styles rules for section-footer
+*/
+  .footer-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer-content-1 {
+    grid-column: span 1;
   }
 }
 /* 
@@ -219,6 +231,12 @@
   .faq-box-body p {
     font-size: var(--fs-10);
   }
+  /* 
+    !styles rules for section-footer
+*/
+  .footer-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 /* 
     !mobile
@@ -259,5 +277,11 @@
   .faq-header-menu ul {
     width: 100%;
     gap: 0rem;
+  }
+  /* 
+    !styles rules for section-footer
+*/
+  .footer-content {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

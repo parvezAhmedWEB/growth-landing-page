@@ -291,3 +291,82 @@
   margin-bottom: 4.8rem;
   width: 85%;
 }
+/* 
+    !styles rules for section-footer
+*/
+.section-footer {
+  padding: 4rem 0;
+  background-color: var(--cls-primary);
+  color: var(--cls-white);
+}
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  gap: 8.5rem;
+}
+.footer-content-1 {
+  grid-column: span 2;
+}
+.footer-content__logo {
+  width: 10.4rem;
+}
+.footer-content__box {
+  background-color: var(--bg-light-1);
+  color: var(--cls-primary);
+  border-radius: 1rem;
+  padding: 2.4rem;
+  margin-top: 4rem;
+}
+.footer-content__box h4 {
+  font-size: var(--fs-7);
+  font-weight: 400;
+  margin-bottom: 0.8rem;
+}
+.footer-content__box p {
+  font-size: var(--fs-10);
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.footer-content__media-icon {
+  display: flex;
+  gap: 1rem;
+}
+.footer-content__media-icon i {
+  font-size: var(--fs-7);
+  margin-top: 4rem;
+}
+.footer-content__text {
+  font-size: var(--fs-9);
+  margin-bottom: 2rem;
+}
+.footer__menu {
+  font-size: var(--fs-10);
+  color: var(--cls-light-1);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+form {
+  display: flex;
+  gap: 0.5rem;
+}
+form input {
+  padding: 1.2rem;
+  flex-grow: 2;
+  border: none;
+  border-radius: 0.5rem;
+}
+form button {
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--bg-primary);
+  color: var(--cls-white);
+  padding: 0 2rem;
+  font-weight: 600;
+}
+.all-right-text {
+  display: block;
+  margin-top: 6rem;
+  text-align: center;
+}
