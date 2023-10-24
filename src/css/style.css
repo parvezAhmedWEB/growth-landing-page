@@ -267,10 +267,11 @@
   margin: 0 auto;
 }
 .faq-box-qus h4 {
-  margin-top: 2rem;
+  margin-top: 4rem;
   font-size: var(--fs-8);
   margin-bottom: 1.6rem;
   width: 90%;
+  border: none;
 }
 .faq-box-qus {
   position: relative;
@@ -283,13 +284,20 @@
   font-size: var(--fs-8);
   cursor: pointer;
 }
-.faq-box-body {
+[class^="faq-box-"] {
   border-bottom: 1px solid var(--bg-light-1);
+}
+.faq-box-body {
+  display: none;
 }
 .faq-box-body p {
   font-size: var(--fs-9);
-  margin-bottom: 4.8rem;
   width: 85%;
+  margin: 3rem 0;
+  color: var(--cls-light-1);
+}
+.open {
+  display: block;
 }
 /* 
     !styles rules for section-footer
@@ -369,4 +377,5 @@ form button {
   display: block;
   margin-top: 6rem;
   text-align: center;
+  color: var(--bd-light-1);
 }
